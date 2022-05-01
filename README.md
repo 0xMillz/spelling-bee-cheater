@@ -5,7 +5,7 @@
 2) Run ```node main.js```
 3) Matching words are printed to console
 
-![Alt text](./queen_bee.png?raw=true "Queen Bee")
+![Alt text](./queen_bee2.png?raw=true "Queen Bee")
 
 TODO:  
 -Handle plurals that are not listed uniquely in the dictionary e.g. "nobleman" => "noblemen"  
