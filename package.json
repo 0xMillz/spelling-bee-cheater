@@ -2,10 +2,10 @@
   "name": "spelling-bee",
   "version": "1.0.0",
   "description": "Simple script to help cheat on the NYT's Spelling Bee game",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
-    "run": "node main.js",
+    "go": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

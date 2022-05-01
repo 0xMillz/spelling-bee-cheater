@@ -1,8 +1,9 @@
 import fetch from "node-fetch"
 
-const middleLetter = "E"
+const middleLetter = "E" // Replace with today's middle letter
+const allLetters = ["M", "O", "L", "W", "N", "B", ...middleLetter] // replace with today's surrounding letters
+
 const alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-const allLetters = ["M", "O", "L", "W", "N", "B", ...middleLetter]
 const foundWords = []
 
 const apiUrl = "https://api.datamuse.com/words?"
